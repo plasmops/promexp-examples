@@ -1,0 +1,6 @@
+FROM node:alpine
+
+ADD ./ /code
+RUN cd /code && yarn
+
+CMD ["node", "/code/log-events-exporter.js"]

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-async-handler": "^1.1.4",
+    "pino": "^5.9.0",
+    "prom-client": "^11.2.0"
+  }
+}

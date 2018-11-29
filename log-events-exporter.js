@@ -43,8 +43,8 @@ prometheus.collectDefaultMetrics()
 
 // event counter metric with two labels
 eventCounter = new prometheus.Counter({
-  name: 'my_event',
-  help: 'Service my-api general event',
+  name: 'my_events_total',
+  help: 'Service my-api log events',
   labelNames: ['level', 'event_type']
 })
 
